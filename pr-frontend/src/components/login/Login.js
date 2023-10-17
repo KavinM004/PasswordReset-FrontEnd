@@ -43,7 +43,7 @@ function Login() {
                             {/* Nested Row within Card Body */}
                             <div className="row">
                                 <div className="col-lg-6 d-none d-lg-block h-100vh bg-login-image">
-                                    <img class="card-img-top" src="https://www.freeiconspng.com/uploads/forgot-password-icon-6.jpg" alt="Card image cap" />
+                                    <img class="card-img-top" src="https://www.freeiconspng.com/uploads/forgot-password-icon-6.jpg" alt="Card-cap" />
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="p-5">

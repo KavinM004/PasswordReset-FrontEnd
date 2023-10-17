@@ -24,7 +24,7 @@ function Register() {
             },
             validate: (values) => {
                 let errors = {};
-                let pattern = new RegExp(/^[a-zA-Z\-]+$/)
+                let pattern = /^[a-zA-Z-]+$/;
                 if (!values.username) {
                     errors.username = 'Please enter the name';
                 } else if (values.username.length < 5) {
@@ -59,7 +59,7 @@ function Register() {
                 }
                 if (!values.password2) {
                     errors.password2 = 'Please enter the password'
-                } else if (values.password1 != values.password2) {
+                } else if (values.password1 !== values.password2) {
                     errors.password2 = 'Password does not match'
                 }
                 return errors
